@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,user-scalable=no">
+        <title>Tarea</title>
+    </head>
+    <body>
+      <svg width="200" height="167">
+        <circle cx="85" cy="85" r="80" fill="#00EDED" stroke="#01BFBF" stroke-width="2"/>
+        <g stroke="black" stroke-width="1">
+          <line x1="45" y1="60" x2="45" y2="110"/>
+          <line x1="45" y1="60" x2="85" y2="60"/>
+          <line x1="45" y1="85" x2="65" y2="85"/>
+          <line x1="95" y1="60" x2="95" y2="110"/>
+          <line x1="95" y1="60" x2="135" y2="60"/>
+          <line x1="95" y1="85" x2="115" y2="85"/>
+        </g>
+      </svg>
+      <h1>Hoja de Vida.</h1></br>
+      <h2>Datos personales.</h2>
+      <h2>Nombres: </h2>
+      <h3>Fernando M.</h3>
+      <h2>Apellidos:</h3>
+      <h3>Flores Ch.</h3>
+      <h2>Fecha de nacimiento:</h2>
+      <h3>29 de diciembre de 1992</h3>
+      <h2>Lugar de nacimiento:</h2>
+      <h3>La Paz, Bolivia</h3><br/>
+      <h2>Enlaces de menú básico</h2>
+      <p>
+        <nav>
+          <a href="index.html">Inicio</a></br>
+          <a href="educacion.html">Educación</a></br>
+          <a href="experiencia.html">Experiencia</a></br>
+        </nav>
+      </p>
+      <h2>Educación.</h2>
+      <table border="1">
+        <thead align="center">
+          <tr>
+            <th>Año</th>
+            <th>Institución</th>
+            <th>Lugar</th>
+            <th>¿Culminó?</th>
+          </tr>
+        </thead>
+        <tbody align="center">
+          <tr>
+            <td>2010-2015</td>
+            <td>Escuela Militar de Ingeniería</td>
+            <td>La Paz</td>
+            <td>Sí</td>
+          </tr>
+          <tr>
+            <td>2017</td>
+            <td>Universidad del Valle</td>
+            <td>La Paz</td>
+            <td>Sí</td>
+          </tr>
+        </tbody>
+        <tfoot align="center">
+          <tr>
+            <td>2018</td>
+            <td>Cisco Systems</td>
+            <td>La Paz</td>
+            <td>Sí</td>
+          </tr>
+        </tfoot>
+      </table>
+      <h3>Agregar Estudios</h3>
+      <form autocomplete="on" name="Agregar estudios">
+        <fieldset>
+          <label for="Anio">Año: </label>
+          <select>
+            <option>2018</option>
+            <option>2017</option>
+            <option>2016</option>
+            <option>2015</option>
+          </select><br/>
+          <label for="Institucion">Institución: </label>
+          <input type="text" id="Institucion" required><br/>
+          <label for="Lugar">Lugar: </label>
+          <input type="text" id="Lugar" required><br/>
+          <input type="submit" value="Enviar"><br/>
+        </fieldset>
+      </form>
+      <footer>
+        <svg width="100%" height="1">
+          <line x1="0" y1="0" x2="100%" y2="0" stroke="blue" stroke-width="1"/>
+        </svg>
+        <h4>Contacto:</h4>
+        <p align="center">
+          Correo:  <a href="mailto:thofeles92@gmail.com?subject=revision">thofeles92@gmail.com</a> &nbsp;
+          Redes sociales: <a href="https://www.facebook.com/ferthofeles" target="_blank"><img src="Img/Fb.png" alt="logo" title="Logo Fb" width="30" height="30"></a>
+        </p>
+      </footer>
+    </body>
+</html>
